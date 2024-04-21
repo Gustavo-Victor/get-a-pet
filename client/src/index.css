@@ -1,0 +1,40 @@
+/*variables*/
+:root {
+  --main: #007e7a;
+  --bright: #01a7a1;
+  --secondary: #ecb11f;
+  --white: #fff;
+  --text: #272D2D;
+}
+
+
+/*reset*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text); 
+  background-color: var(--white);
+}
+
+body h1 {
+  color: var(--main); 
+  margin-bottom: 1rem; 
+  font-size: 2.1rem; 
+}
+
+body a {
+  text-decoration: none;
+  color: var(--main); 
+}
+
+body .bold {
+  font-weight: bold; 
+  color: var(--main); 
+}

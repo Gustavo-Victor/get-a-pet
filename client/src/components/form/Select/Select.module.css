@@ -1,0 +1,29 @@
+.form_control {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 1rem;
+}
+
+.form_control label {
+    margin-bottom: .3rem; 
+    font-weight: bold;
+    font-size: .8rem; 
+}
+
+
+.form_control select {
+   
+    padding: .7rem; 
+    outline: none;
+    border: none;
+    border: 1px solid #777; 
+    border-radius:5px;
+    padding-right: 1.2rem;
+    appearance: none;
+    display: block;
+    width: 100%;
+    background: url("../../../assets/images/caret-down-solid.svg");
+    background-size: 10px;
+    background-position: 95.5% 50%;
+    background-repeat: no-repeat;
+}
