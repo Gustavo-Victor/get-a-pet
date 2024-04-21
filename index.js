@@ -38,5 +38,5 @@ app.get("/", (req, res) => {
 
 // listen port
 app.listen(port, () => {
-    console.log(`Backend is running...`); 
+    console.log(`App is running. Default port: ${port}`); 
 }); 
