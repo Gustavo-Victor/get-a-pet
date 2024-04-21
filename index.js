@@ -4,6 +4,7 @@ import cors from "cors";
 import userRouter from "./routes/userRoutes.js";  
 import petRouter from "./routes/petRoutes.js"; 
 import url from "node:url";
+import path from "node:path"; 
 import conn from "./db/conn.js";
 
 
@@ -24,15 +25,14 @@ app.use(cors({ credentials: true, origin: frontEndHost }));
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json()); 
 app.use(express.static("public")); 
-app.use(express.static(`dist/assets`)); 
+app.use(express.static(path.resolve(__dirname, 'client/dist')));
 
 
 // routes
 app.use("/users", userRouter); 
 app.use("/pets", petRouter); 
-// index
-app.get("/", (req, res) => {
-    res.sendFile("index.html", { root: baseDir }); 
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, './client/dist', 'index.html'));
 }); 
 
 
