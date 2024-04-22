@@ -21,7 +21,8 @@ const frontEndHost = "http://localhost:5173";
 
 
 // middlewares
-app.use(cors({ credentials: true, origin: frontEndHost }));
+// app.use(cors({ credentials: true, origin: frontEndHost }));
+app.use(cors()); 
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json()); 
 app.use(express.static("public")); 
