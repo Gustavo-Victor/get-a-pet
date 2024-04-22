@@ -1,6 +1,6 @@
 // modules
 import { Router } from "express";
-import { UserController } from "../controllers/userController.js"; 
+import { UserController } from "../controllers/UserController.js"; 
 import { checkToken } from "../helpers/user-helpers.js"; 
 import { imageUpload } from "../helpers/image-upload.js"; 
 
