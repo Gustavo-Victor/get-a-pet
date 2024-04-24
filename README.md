@@ -58,9 +58,10 @@ Clique [aqui](https://get-a-pet-mpw4.onrender.com/) para conferir como ficou a a
 - [Multer](https://www.npmjs.com/package/multer)
 
 
-Confira melhor as dependências do projeto: 
-    - [Front-End](./client/package.json)
-    - [Back-End](./package.json)
+Confira melhor as dependências do projeto:  
+
+- [Front-End](./client/package.json)
+- [Back-End](./package.json)
 
 
 ## 💻 Como usar
