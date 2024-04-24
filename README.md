@@ -28,7 +28,7 @@ Clique [aqui](https://get-a-pet-mpw4.onrender.com/) para conferir como ficou a a
 
 ## 🎨 Layout
 
-<img width="600" src="./public/img/screenshot.png" alt="Desktop" title="Desktop">
+<img width="600" src="./public/images/screenshot.png" alt="Desktop" title="Desktop">
 
 
 ## ⚙️ Funcionalidades
