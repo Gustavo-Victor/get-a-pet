@@ -9,8 +9,24 @@
     "dev": "nodemon index.js localhost 4000",
     "build": "cd client && npm install && npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "pet system",
+    "expres",
+    "fullstack",
+    "jsonwebtoken",
+    "reactjs",
+    "authentication",
+    "crud",
+    "mongodb",
+    "mongoose",
+    "image upload"
+  ],
+  "author": {
+    "name": "Gustavo Victor",
+    "email": "gguvictor999@outlook.com",
+    "url": "https://github.com/Gustavo-Victor"
+  },
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -24,5 +40,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "repository": {
+    "url": "https://github.com/Gustavo-Victor/get-a-pet",
+    "type": "git"
   }
 }
